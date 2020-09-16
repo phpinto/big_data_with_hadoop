@@ -1,6 +1,6 @@
 # Exporing input files to HDFS
 
-hadoop fs -put ../input /
+hadoop fs -put ../../input /
 
 # Compiling the WordCount Program:
 
