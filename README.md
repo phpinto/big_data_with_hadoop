@@ -36,11 +36,11 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
  After installing HDFS, I starting all services by running the start-all.sh script on the sbin folder inside the hadoop folder.
 
-- Resource Manager Screenshot:
+**- Resource Manager Screenshot:**
 ![alt text](images/Resource%20Manager.png)
 
-- JobTracker Screenshot:
+**- JobTracker Screenshot:**
 ![alt text](images/JobTracker.png)
 
-- Node Manager Screenshot:
+**- Node Manager Screenshot:**
 ![alt text](images/Node%20Manager.png)
