@@ -44,3 +44,7 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
 **- Node Manager Screenshot:**
 ![alt text](images/Node%20Manager.png)
+
+### 2. MapReduce WordCount:
+
+
