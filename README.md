@@ -18,6 +18,7 @@ Specifications of the machine I used to run the programs in this repository:
 - macOS Catalina (10.15.6)
 - 2 GHz Quad-Core Intel Core i5 (10th Generation)
 - 16 GB RAM
+- 500 GB SSD
 - Hadoop running on Pseudo-Distributed mode
 
 ### 1. HDFS Installation:
