@@ -22,17 +22,17 @@ Specifications of the machine I used to run the programs in this repository:
 - Hadoop running on Pseudo-Distributed mode
 
 #### Repository Folder Structure:
-- input: 
+- **input:** 
     - All text inputs used for the MapReduce jobs.
-- WordCount: 
+- **WordCount:** 
     - Java MapReduce program to count the occurance of each word in a document or body of documents.
-- Top100Words: 
+- **Top100Words:** 
     - Java MapReduce program to find the top 100 most common words across a body of documents.
-- output: 
+- **output:** 
     - All outputs from the MapReduce jobs.
-- import_books: 
+- **import_books:** 
     - Contains the jupyter notebook used to import books from the Gutenbert Project.
-- images: 
+- **images:** 
     - Contains all images used in the Readme file.
 
 ### 1. HDFS Installation:
