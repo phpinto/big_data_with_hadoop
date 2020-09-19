@@ -239,7 +239,7 @@ The final output will contain **100 words** displaying the number of documents w
 
 In order to achieve this, I made several changes to the WordCount program:
 
-- Used a HashMap to count the total occurances of each word per document during the Mapper stage instead of writing it to the context every iteration:
+- Used a **HashMap to count the total occurances of each word per document** during the Mapper stage instead of writing it to the context every iteration:
 
 ```java
     Map<String, Integer> word_list = new HashMap<String, Integer>();
@@ -253,7 +253,7 @@ In order to achieve this, I made several changes to the WordCount program:
         else word_list.put(word, count + 1);
     }
 ```
-- Overrode the Mapper's cleanup method to write compounded sums to the context only once. This way, each word will be written to context once for every document that contains that word (containing the number of times it appears in that document):
+- **Overrode the Mapper's cleanup method** to write compounded sums to the context only once. This way, each word will be written to context once for every document that contains that word (containing the number of times it appears in that document):
 
 ```java
 @Override
@@ -263,4 +263,39 @@ In order to achieve this, I made several changes to the WordCount program:
                 clean_word.set(key);
                 context.write(clean_word, word_count);
             }
+```
+
+- Created the ***WordTuple*** class that implements the ***Comparable*** class inside the ***Reducer*** class to make the **"triple sorting"** process easier.
+
+```java
+    public class WordTuple implements Comparable<WordTuple> {
+
+            private int id = 1;
+            private String word;
+            private int document_count;
+            private int total_count;
+
+            WordTuple(String word, int document_count, int total_count) {
+                this.word = word;
+                this.document_count = document_count;
+                this.total_count = total_count;
+            }
+
+            public int getDocCount() {
+                return this.document_count;
+            }
+
+            public int getTotalCount() {
+                return this.total_count;
+            }
+
+            public String getWord() {
+                return this.word;
+            }
+
+            @Override
+            public int compareTo(WordTuple o) {
+                return this.id - o.id;
+            }
+        }
 ```
