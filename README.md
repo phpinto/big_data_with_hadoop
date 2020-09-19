@@ -188,7 +188,7 @@ In my machine, the script took ~40 seconds to run (including the time it takes t
 - Portion of a MapReduce successful job feedback message:
 ![alt text](images/mapreduce_success.png)
 
-- Portion of a MapReduce job output:
+- Portion of a MapReduce WordCount job output:
 ```txt
     A       18
     About   1
@@ -348,4 +348,23 @@ Additionally, I also decided to include a look-up HashSet of the 150 most common
             Set<String> common_words_set = new HashSet<>(Arrays.asList(common_words));
 
             if (!common_words_set.contains(key.toString())) master_list.add(new WordTuple(key.toString(), doc_count, total_count))
+```
+
+- Portion of a MapReduce Top100Words job output:
+```txt
+    Such	201	377
+    Technology	196	504
+    Us	178	366
+    Mr	175	509
+    Users	173	407
+    Being	169	279
+    Because	159	246
+    Used	156	281
+    Using	152	238
+    Those	149	251
+    Digital	139	373
+    Computer	136	299
+    Last	135	186
+    Million	134	253
+    Online	133	307
 ```
