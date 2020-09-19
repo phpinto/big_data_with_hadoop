@@ -230,11 +230,11 @@ It would be very interesting to run this program on an actual Hadoop cluster wit
 
 ### 4. MapReduce Top100Words:
 
-This is a more complicated MapReduce problem where you take group of documents (corpus) as input and output Top 100 words ranked in 3 different ways:
+This is a more complicated MapReduce problem where you take group of documents (corpus) as input and output **Top 100 words ranked in 3 different ways**:
   - First, by the number of files in the corpus where that word appears.
   - Second, by the total number of times that word appears in the corpus (in case multiple words appear on the same number of files).
   - Third, sort the words alphabetically (as a final tie-breaker if necessary).
   
-The final output will contain 100 words displaying the number of documents where it appears and total number of occurances in the corpus separated by tabs (e.g.: World    33  215) 
+The final output will contain **100 words** displaying the number of documents where it appears and total number of occurances in the corpus separated by tabs (e.g.: **World   33   215**) 
 
 In order to achieve this, I made several changes to the WordCount program:
