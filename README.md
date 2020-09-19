@@ -210,7 +210,7 @@ In my machine, the script took ~40 seconds to run (including the time it takes t
     Be      17
     Been    1
 ```
-- Performance Analysis:
+- **Performance Analysis:**
 
 |     Dataset     |  Size  | # of Files | Time Elapsed | # of Unique Words |
 |:---------------:|:------:|:----------:|:------------:|:-----------------:|
@@ -219,3 +219,8 @@ In my machine, the script took ~40 seconds to run (including the time it takes t
 | Charles Dickens | 6.4 MB |     20     |     37 ms    |       45,331      |
 |  BBC Tech News  | 1.2 MB |     401    |    183 ms    |       12,673      |
 |   Song Lyrics   | 5.6 MB |     41     |     51 ms    |       27,254      |
+
+As can be seen from the table above, while the size of the data set does influence in the computation time, the total number of files has a way more significant impact. That makes perfect since given that writing to and reading from disk are time-consuming tasks (if my machine had a traditional hard drive instead of a solid state drive this discrepancy would probably be even higher).
+
+- **# of Files vs. Computation Time Graph:**
+
