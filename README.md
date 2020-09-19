@@ -222,7 +222,7 @@ In my machine, the script took **~40 seconds** to run (including the time it tak
 
 As can be seen from the table above, while the size of the data set does influence in the computation time, the total number of files has a way more significant impact. That makes perfect since given that writing to and reading from disk are time-consuming tasks (if my machine had a traditional hard drive instead of a solid state drive this discrepancy would probably be even higher).
 
-- **# of Files vs. Computation Time Graph:**
+- **Computation Time vs # of Files Graph:**
 
 ![alt text](images/graph_word_count.png)
 
@@ -388,3 +388,10 @@ In my machine, the script took **~45 seconds** to run (including the time it tak
 |     Rock Lyrics     | 1.4 MB |     13     |     34 ms    |
 | Folk/Country Lyrics | 672 KB |      6     |     18 ms    |
 |    Hip-Hop Lyrics   | 2.2 MB |     11     |     31 ms    |
+
+Once again, it can be confirmed how the total number of documents is most important factor when predicting computational time. It would also be very interesting to see how much faster this program would run in a larger scale Hadoop clsuter.
+
+- **Computation Time vs # of Files Graph:**
+
+![alt text](images/graph_top_100.png)
+
