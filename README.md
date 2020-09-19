@@ -183,4 +183,4 @@ while (itr.hasMoreTokens()) {
     cd WordCount/src
     sh word_count.sh
 ```
-In my machine, the script took ~ seconds to run (including the time it takes to print all the progress reports to the terminal).
+In my machine, the script took ~40 seconds to run (including the time it takes to print all the progress reports to the terminal).
