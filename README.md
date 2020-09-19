@@ -299,3 +299,53 @@ In order to achieve this, I made several changes to the WordCount program:
             }
         }
 ```
+- **Overrode the Reducers's cleanup method** to receive an ***ArrayList of WordTuple*** objects, perform the "triple sort" and write top 100 words, the number of documents they appear in and the total number of occurances all documents separated by tabs:
+
+```java
+   ArrayList<WordTuple> master_list = new ArrayList<>();
+
+    @Override
+        protected void cleanup(Context context) throws IOException, InterruptedException {
+
+            Comparator<WordTuple> comparison = Comparator
+                    .comparing(WordTuple::getDocCount)
+                    .thenComparing(WordTuple::getTotalCount)
+                    .thenComparing(WordTuple::getWord);
+
+            master_list.sort(comparison.reversed());
+
+            int counter = 0;
+
+            for (int i = 0; i < master_list.size(); i++) {
+                if (counter++ > 99) break;
+                String word = master_list.get(i).getWord();
+                int occ = master_list.get(i).getDocCount();
+                int tot = master_list.get(i).getTotalCount();
+                final_result.set(Integer.toString(occ) + "\t" + Integer.toString(tot));
+                context.write(new Text(word), final_result);
+            }
+        }
+```
+
+Additionally, I also decided to include a look-up HashSet of the 150 most common words in the English language (found at http://shabanali.com/upload/1000words.pdf) and exclude them from the output. Since words like "The", "Be" and "Of" are so commonly used, that they would not add much value when comparing different groups of documents.
+
+- I achieved this by always checking if the word was **contained in the HashSet** before adding any object to the WordTuple Arraylist.
+
+```java
+    String[] common_words = {"The", "Of", "And", "A", "To", "In", "Is", "You", "That", "It", "He", "Was", "For",
+                    "On", "Are", "As", "With", "His", "They", "I", "At", "Be", "This", "Have", "From", "Or", "One",
+                    "Had", "By", "Word", "But", "Not", "What", "All", "Were", "We", "When", "Your", "Can", "Said",
+                    "There", "Use", "An", "Each", "Which", "She", "Do", "How", "Their", "If", "Will", "Up", "Other",
+                    "About", "Out", "Many", "Then", "Them", "These", "So", "Some", "Her", "Would", "Make", "Like",
+                    "Him", "Into", "Time", "Has", "Look", "Two", "More", "Write", "Go", "See", "Number", "No", "Way",
+                    "Could", "People", "My", "Than", "First", "Water", "Been", "Call", "Who", "Oil", "Its", "Now",
+                    "Find", "Long", "Down", "Day", "Did", "Get", "Come", "Made", "May", "Part", "Over", "New", "Sound",
+                    "Take", "Only", "Little", "Work", "Know", "Place", "Year", "Live", "Me", "Back", "Give", "Most",
+                    "Very", "After", "Thing", "Our", "Just", "Name", "Good", "Sentence", "Man", "Think", "Say", "Great",
+                    "Where", "Help", "Through", "Much", "Before", "Line", "Right", "Too", "Mean", "Old", "Any", "Same",
+                    "Tell", "Boy", "Follow", "Came", "Want", "Show", "Also", "Around", "Form", "Three", "Small"};
+
+            Set<String> common_words_set = new HashSet<>(Arrays.asList(common_words));
+
+            if (!common_words_set.contains(key.toString())) master_list.add(new WordTuple(key.toString(), doc_count, total_count))
+```
