@@ -43,6 +43,44 @@ The first step of this homework was to setup HDFS in my local machine. In order 
 - Hadoop mode: Pseudo-Distributed (<value>1</value> on the hdfs-site.xml configuration file)
 - hadoop command is available globally (hadoop binary files were added to the path)
 
+
+- Configuration File Edits:
+    - hadoop-env.sh:
+    Make sure to set export JAVA_HOME to the the Java home location in your machine.
+    - core-site.xml:
+```xml
+    <configuration>
+      <property>
+        <name>hadoop.tmp.dir</name>
+        <value>/usr/local/Cellar/hadoop/hdfs/tmp</value>
+        <description>A base for other temporary directories</description>             
+      </property>
+      <property>
+        <name>fs.default.name</name>
+        <value>hdfs://localhost:8020</value>
+      </property>
+    </configuration>
+```
+    - mapred-site.xml:
+```xml
+    <configuration>
+      <property>
+        <name>mapred.job.tracker</name>
+        <value>localhost:8021</value>
+      </property>
+    </configuration>
+```
+    - hdfs-site.xml:
+```xml
+    <configuration>
+      <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+      </property>
+    </configuration>
+```
+
+
 Since, my computer was running macOS I found the following installation tutorial very helpful: https://medium.com/beeranddiapers/installing-hadoop-on-mac-a9a3649dbc4d
 
 If you are running Windows you can follow this tutorial: https://towardsdatascience.com/installing-hadoop-3-2-1-single-node-cluster-on-windows-10-ac258dd48aef
