@@ -121,14 +121,18 @@ public class Top100Words {
             }
 
 
-            String[] common_words = {"The", "Of", "And", "A", "To", "In", "Is", "You", "That", "It", "He", "Was",
-                    "For", "On", "Are", "As", "With", "His", "They", "I", "At", "Be", "This", "Have", "From", "Or",
-                    "One", "Had", "By", "Word", "But", "Not", "What", "All", "Were", "We", "When", "Your", "Can",
-                    "Said", "There", "Use", "An", "Each", "Which", "She", "Do", "How", "Their", "If", "Will", "Up",
-                    "Other", "About", "Out", "Many", "Then", "Them", "These", "So", "Some", "Her", "Would", "Make",
-                    "Like", "Him", "Into", "Time", "Has", "Look", "Two", "More", "Write", "Go", "See", "Number", "No",
-                    "Way", "Could", "People", "My", "Than", "First", "Water", "Been", "Call", "Who", "Oil", "Its",
-                    "Now", "Find", "Long", "Down", "Day", "Did", "Get", "Come", "Made", "May", "Part"};
+            String[] common_words = {"The", "Of", "And", "A", "To", "In", "Is", "You", "That", "It", "He", "Was", "For",
+                    "On", "Are", "As", "With", "His", "They", "I", "At", "Be", "This", "Have", "From", "Or", "One",
+                    "Had", "By", "Word", "But", "Not", "What", "All", "Were", "We", "When", "Your", "Can", "Said",
+                    "There", "Use", "An", "Each", "Which", "She", "Do", "How", "Their", "If", "Will", "Up", "Other",
+                    "About", "Out", "Many", "Then", "Them", "These", "So", "Some", "Her", "Would", "Make", "Like",
+                    "Him", "Into", "Time", "Has", "Look", "Two", "More", "Write", "Go", "See", "Number", "No", "Way",
+                    "Could", "People", "My", "Than", "First", "Water", "Been", "Call", "Who", "Oil", "Its", "Now",
+                    "Find", "Long", "Down", "Day", "Did", "Get", "Come", "Made", "May", "Part", "Over", "New", "Sound",
+                    "Take", "Only", "Little", "Work", "Know", "Place", "Year", "Live", "Me", "Back", "Give", "Most",
+                    "Very", "After", "Thing", "Our", "Just", "Name", "Good", "Sentence", "Man", "Think", "Say", "Great",
+                    "Where", "Help", "Through", "Much", "Before", "Line", "Right", "Too", "Mean", "Old", "Any", "Same",
+                    "Tell", "Boy", "Follow", "Came", "Want", "Show", "Also", "Around", "Form", "Three", "Small"};
 
             Set<String> common_words_set = new HashSet<>(Arrays.asList(common_words));
 

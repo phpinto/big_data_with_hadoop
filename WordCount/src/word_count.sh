@@ -14,3 +14,6 @@ hadoop jar wc.jar WordCount /input/charles_dickens /output/word_count_charles_di
 
 # Running WordCount with 401 BBC technology news stories
 hadoop jar wc.jar WordCount /input/bbc_tech_news /output/word_count_bbc_tech_news
+
+# Running WordCount on the Song Lyrics Dataset
+hadoop jar wc.jar WordCount /input/song_lyrics/all_genres /output/word_count_song_lyrics
