@@ -395,3 +395,19 @@ Once again, it can be confirmed how the total number of documents is most import
 
 ![alt text](images/graph_top_100.png)
 
+- **Output Analysis:**
+
+In order to illustrate the outputs of this MapReduce job, I created a few *Word Clouds* using the website https://worditout.com/word-cloud/:
+
+- Charles Dickens' Books:
+
+- BBC Technology News:
+
+- Pop Song Lyrics:
+
+- Rock Song Lyrics:
+
+- Folk/Country Song Lyrics:
+
+- Hip-Hop Song Lyrics:
+
