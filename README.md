@@ -186,7 +186,7 @@ while (itr.hasMoreTokens()) {
 In my machine, the script took ~40 seconds to run (including the time it takes to print all the progress reports to the terminal).
 
 - Portion of a MapReduce successful job feedback message:
-![alt text](images/mapreduce_feedback.png)
+![alt text](images/mapreduce_success.png)
 
 - Portion of a MapReduce job output:
 ```txt
