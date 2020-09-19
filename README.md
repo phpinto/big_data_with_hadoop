@@ -92,7 +92,7 @@ If you are running Windows you can follow this tutorial: https://towardsdatascie
 
 If you running Linux, you can follow the offical Apache Hadoop documentation: https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
 
- After installing HDFS, I starting all services by running the start-all.sh script on the sbin folder inside the hadoop folder.
+ ***After installing HDFS, I starting all services by running the start-all.sh script on the sbin folder inside the hadoop folder.***
 
 - **Resource Manager Screenshot:**
 
@@ -106,7 +106,7 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
 ![alt text](images/Node%20Manager.png)
 
-### 2. Data Description:
+### 2. Data:
 
 A number of different text files were used was input data for this homework. They are all saved in the input folder.
 
@@ -129,7 +129,13 @@ A number of different text files were used was input data for this homework. The
     - Rock: 13 aritsts
     - Folk/Country: 6 aritsts
     - Hip-Hop: 11 aritsts
-
+    
+- Saving the data on HDFS:
+  - To save the input data on HDFS, you just need to run the export_inputs.sh shell script in the root directory of the project by running the following command:
+```shell
+    sh export_inputs.sh
+```
+In my machine, the script took ~25 seconds to run.
 
 ### 3. MapReduce WordCount:
 
@@ -170,3 +176,10 @@ while (itr.hasMoreTokens()) {
                     }
                 }
 ```
+- Running the program:
+  - To run the MapReduce job, you need to change directories to WordCount/src and run the word_count.sh shell script by running the following commands:
+```shell
+    cd WordCount/src
+    sh word_count.sh
+```
+In my machine, the script took ~ seconds to run (including the time it takes to print all the progress reports to the terminal).
