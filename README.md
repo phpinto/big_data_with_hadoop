@@ -142,41 +142,6 @@ In my machine, the script took ~25 seconds to run.
 
 This is a classic MapReduce problem where you take a document (or group of documents) as input and output all the different words sorted alphabetically along with the number of times each one occured in the document or corpus.
 
-- Job Diagram:
-
-![alt text](images/map_reduce_word_count.png)
-
-This image was obtained from https://www.edureka.co/blog/mapreduce-tutorial/
-
-- As a starting point, I used the MapReducde tutorial on the official Apache Hadoop website https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html .
-
-- After compiling and running the program, I noticed that it was not filtering out punctuation or unusual characters after splitting the text based on whitespace " ". This lead to strings like \[first,], \[who and tears- being considered distinct words.
-
-- Steps to solve this problem:
-  - Eliminating all characters besides letters, hyphens (-) and single apostrophes (')
-  - After the initial filtering, keep only hyphens or apostrophes that appeared inside a word (e.g. Bye-bye or Nature's)
-  - Standardizing the letter case by capitalizing the first letter in each word (e.g. Apple instead of apple, APPLE or aPpLe)
-```java
-while (itr.hasMoreTokens()) {
-                word = itr.nextToken();
-                String pattern = "[^\\-'A-Za-z]+";
-                word = word.replaceAll(pattern,"");
-                if (word.length() > 0) {
-                    int start = 0;
-                    while (start < word.length()){
-                        if (!Character.isLetter(word.charAt(start))) ++start;
-                        else break;
-                    }
-                    int end = Character.isLetter(word.charAt(word.length()-1)) ? word.length() : word.length() - 1;
-                    if (end < start) end = start;
-                    word = word.substring(start,end);
-                    if (word.length() > 0) {
-                        word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
-                        clean_word.set(word);
-                        context.write(clean_word, one);
-                    }
-                }
-```
 - **Running the program:**
   - To run the MapReduce job, you need to change directories to WordCount/src and run the word_count.sh shell script by running the following commands from the root directory of the repository:
 ```shell
@@ -220,13 +185,6 @@ In my machine, the script took **~40 seconds** to run (including the time it tak
 |  BBC Tech News  | 1.2 MB |     401    |    183 ms    |       12,673      |
 |   Song Lyrics   | 5.6 MB |     41     |     51 ms    |       27,254      |
 
-As can be seen from the table above, while the size of the data set does influence in the computation time, the total number of files has a way more significant impact. That makes perfect since given that writing to and reading from disk are time-consuming tasks (if my machine had a traditional hard drive instead of a solid state drive this discrepancy would probably be even higher).
-
-- **Computation Time vs # of Files Graph:**
-
-![alt text](images/graph_word_count.png)
-
-It would be very interesting to run this program on an actual Hadoop cluster with multiple nodes and compare its performance to my single machine running Hadoop on pseudo-distributed mode. Hadoop excels in the world of Big Data by providing horizontal expansion capabilities with commodity hardware, parallel computation performed where the data resides and robust fault-tolerance.
 
 ### 4. MapReduce Top100Words:
 
@@ -236,119 +194,6 @@ This is a more complicated MapReduce problem where you take group of documents (
   - Third, sort the words alphabetically (as a final tie-breaker if necessary).
   
 The final output will contain **100 words** displaying the number of documents where it appears and total number of occurances in the corpus separated by tabs (e.g.: **World   33   215**) 
-
-In order to achieve this, I made several changes to the WordCount program:
-
-- Used a **HashMap to count the total occurances of each word per document** during the Mapper stage instead of writing it to the context every iteration:
-
-```java
-    Map<String, Integer> word_list = new HashMap<String, Integer>();
-    
-    if (word.length() > 0) {
-        word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
-
-        Integer count = word_list.get(word);
-
-        if (count == null) word_list.put(word, 1);
-        else word_list.put(word, count + 1);
-    }
-```
-- **Overrode the Mapper's cleanup method** to write compounded sums to the context only once. This way, each word will be written to context once for every document that contains that word (containing the number of times it appears in that document):
-
-```java
-@Override
-        protected void cleanup(Context context) throws IOException, InterruptedException {
-            for (String key : word_list.keySet()) {
-                word_count.set(word_list.get(key));
-                clean_word.set(key);
-                context.write(clean_word, word_count);
-            }
-```
-
-- Created the ***WordTuple*** class that implements the ***Comparable*** class inside the ***Reducer*** class to make the **"triple sorting"** process easier.
-
-```java
-    public class WordTuple implements Comparable<WordTuple> {
-
-            private int id = 1;
-            private String word;
-            private int document_count;
-            private int total_count;
-
-            WordTuple(String word, int document_count, int total_count) {
-                this.word = word;
-                this.document_count = document_count;
-                this.total_count = total_count;
-            }
-
-            public int getDocCount() {
-                return this.document_count;
-            }
-
-            public int getTotalCount() {
-                return this.total_count;
-            }
-
-            public String getWord() {
-                return this.word;
-            }
-
-            @Override
-            public int compareTo(WordTuple o) {
-                return this.id - o.id;
-            }
-        }
-```
-- **Overrode the Reducers's cleanup method** to receive an ***ArrayList of WordTuple*** objects, perform the "triple sort" and write top 100 words, the number of documents they appear in and the total number of occurances all documents separated by tabs:
-
-```java
-   ArrayList<WordTuple> master_list = new ArrayList<>();
-
-    @Override
-        protected void cleanup(Context context) throws IOException, InterruptedException {
-
-            Comparator<WordTuple> comparison = Comparator
-                    .comparing(WordTuple::getDocCount)
-                    .thenComparing(WordTuple::getTotalCount)
-                    .thenComparing(WordTuple::getWord);
-
-            master_list.sort(comparison.reversed());
-
-            int counter = 0;
-
-            for (int i = 0; i < master_list.size(); i++) {
-                if (counter++ > 99) break;
-                String word = master_list.get(i).getWord();
-                int occ = master_list.get(i).getDocCount();
-                int tot = master_list.get(i).getTotalCount();
-                final_result.set(Integer.toString(occ) + "\t" + Integer.toString(tot));
-                context.write(new Text(word), final_result);
-            }
-        }
-```
-
-Additionally, I also decided to include a look-up HashSet of the 150 most common words in the English language (found at http://shabanali.com/upload/1000words.pdf) and exclude them from the output. Since words like "The", "Be" and "Of" are so commonly used, that they would not add much value when comparing different groups of documents.
-
-- I achieved this by always checking if the word was **contained in the HashSet** before adding any object to the WordTuple Arraylist.
-
-```java
-    String[] common_words = {"The", "Of", "And", "A", "To", "In", "Is", "You", "That", "It", "He", "Was", "For",
-                    "On", "Are", "As", "With", "His", "They", "I", "At", "Be", "This", "Have", "From", "Or", "One",
-                    "Had", "By", "Word", "But", "Not", "What", "All", "Were", "We", "When", "Your", "Can", "Said",
-                    "There", "Use", "An", "Each", "Which", "She", "Do", "How", "Their", "If", "Will", "Up", "Other",
-                    "About", "Out", "Many", "Then", "Them", "These", "So", "Some", "Her", "Would", "Make", "Like",
-                    "Him", "Into", "Time", "Has", "Look", "Two", "More", "Write", "Go", "See", "Number", "No", "Way",
-                    "Could", "People", "My", "Than", "First", "Water", "Been", "Call", "Who", "Oil", "Its", "Now",
-                    "Find", "Long", "Down", "Day", "Did", "Get", "Come", "Made", "May", "Part", "Over", "New", "Sound",
-                    "Take", "Only", "Little", "Work", "Know", "Place", "Year", "Live", "Me", "Back", "Give", "Most",
-                    "Very", "After", "Thing", "Our", "Just", "Name", "Good", "Sentence", "Man", "Think", "Say", "Great",
-                    "Where", "Help", "Through", "Much", "Before", "Line", "Right", "Too", "Mean", "Old", "Any", "Same",
-                    "Tell", "Boy", "Follow", "Came", "Want", "Show", "Also", "Around", "Form", "Three", "Small"};
-
-            Set<String> common_words_set = new HashSet<>(Arrays.asList(common_words));
-
-            if (!common_words_set.contains(key.toString())) master_list.add(new WordTuple(key.toString(), doc_count, total_count))
-```
 
 - **Running the program:**
   - To run the MapReduce job, you need to change directories to Top100Words/src and run the top_100_words.sh shell script by running the following commands from the root directory of the repository:
@@ -389,39 +234,6 @@ In my machine, the script took **~45 seconds** to run (including the time it tak
 | Folk/Country Lyrics | 672 KB |      6     |     18 ms    |
 |    Hip-Hop Lyrics   | 2.2 MB |     11     |     31 ms    |
 
-Once again, it can be confirmed how the total number of documents is most important factor when predicting computational time. It would also be very interesting to see how much faster this program would run in a larger scale Hadoop clsuter.
-
-- **Computation Time vs # of Files Graph:**
-
-![alt text](images/graph_top_100.png)
-
-- **Output Analysis:**
-
-In order to illustrate the outputs of this MapReduce job, I created a few *Word Clouds* using the website https://worditout.com/word-cloud/:
-
-- **Charles Dickens' Books:**
-
-![alt text](images/charles_word_cloud.png)
-
-- **BBC Technology News:**
-
-![alt text](images/bbc_word_cloud.png)
-
-- **Pop Song Lyrics:**
-
-![alt text](images/pop_word_cloud.png)
-
-- **Rock Song Lyrics:**
-
-![alt text](images/rock_word_cloud.png)
-
-- **Folk/Country Song Lyrics:**
-
-![alt text](images/folk_word_cloud.png)
-
-- **Hip-Hop Song Lyrics:**
-
-![alt text](images/hip_hop_word_cloud.png)
 
 ### Final View of my HDFS Dashboard:
 
