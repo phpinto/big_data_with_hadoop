@@ -8,7 +8,7 @@ David Price, email ccx074@coventry.ac.uk
 TOM TIDDLER'S GROUND
 
 
-CHAPTER I--PICKING UP SOOT AND CINDERS
+CHAPTER I PICKING UP SOOT AND CINDERS
 
 
 "And why Tom Tiddler's ground?" said the Traveller.
@@ -40,8 +40,8 @@ responsibility; "he is in general so considered."
 "Yes, what is it?"
 
 The Landlord stooped again, to get a more comprehensive view of vacancy
-under the window-blind, and--with an asphyxiated appearance on him as one
-unaccustomed to definition--made no answer.
+under the window-blind, and with an asphyxiated appearance on him as one
+unaccustomed to definition made no answer.
 
 "I'll tell you what I suppose it to be," said the Traveller.  "An
 abominably dirty thing."
@@ -85,7 +85,7 @@ is done on nine shillings a week.
 
 Mr. Traveller sat at his breakfast in the little sanded parlour of the
 Peal of Bells village alehouse, with the dew and dust of an early walk
-upon his shoes--an early walk by road and meadow and coppice, that had
+upon his shoes an early walk by road and meadow and coppice, that had
 sprinkled him bountifully with little blades of grass, and scraps of new
 hay, and with leaves both young and old, and with other such fragrant
 tokens of the freshness and wealth of summer.  The window through which
@@ -102,7 +102,7 @@ village residences seemed to have gone to law with a similar absence of
 consideration, for a score of weak little lath-and-plaster cabins clung
 in confusion about the Attorney's red-brick house, which, with glaring
 door-steps and a most terrific scraper, seemed to serve all manner of
-ejectments upon them.  They were as various as labourers--high-shouldered,
+ejectments upon them.  They were as various as labourers high-shouldered,
 wry-necked, one-eyed, goggle-eyed, squinting, bow-legged, knock-knee'd,
 rheumatic, crazy.  Some of the small tradesmen's houses, such as the
 crockery-shop and the harness-maker, had a Cyclops window in the middle
@@ -131,7 +131,7 @@ hermitage of Mr. Mopes the hermit.
 For, Mr. Mopes, by suffering everything about him to go to ruin, and by
 dressing himself in a blanket and skewer, and by steeping himself in soot
 and grease and other nastiness, had acquired great renown in all that
-country-side--far greater renown than he could ever have won for himself,
+country-side far greater renown than he could ever have won for himself,
 if his career had been that of any ordinary Christian, or decent
 Hottentot.  He had even blanketed and skewered and sooted and greased
 himself, into the London papers.  And it was curious to find, as Mr.
@@ -157,7 +157,7 @@ or how long he had held verminous occupation of his blanket and skewer,
 no consistent information was to be got, from those who must know if they
 would.  He was represented as being all the ages between five-and-twenty
 and sixty, and as having been a hermit seven years, twelve, twenty,
-thirty,--though twenty, on the whole, appeared the favourite term.
+thirty, though twenty, on the whole, appeared the favourite term.
 
 "Well, well!" said Mr. Traveller.  "At any rate, let us see what a real
 live Hermit looks like."
@@ -183,8 +183,8 @@ among the ruined grass and the nettles, were the last perishing fragments
 of certain ricks: which had gradually mildewed and collapsed, until they
 looked like mounds of rotten honeycomb, or dirty sponge.  Tom Tiddler's
 ground could even show its ruined water; for, there was a slimy pond into
-which a tree or two had fallen--one soppy trunk and branches lay across
-it then--which in its accumulation of stagnant weed, and in its black
+which a tree or two had fallen one soppy trunk and branches lay across
+it then which in its accumulation of stagnant weed, and in its black
 decomposition, and in all its foulness and filth, was almost comforting,
 regarded as the only water that could have reflected the shameful place
 without seeming polluted by that low office.
@@ -225,7 +225,7 @@ wooden gate at the side of the house.
 "He does not live in the house, then?" said Mr. Traveller, casting his
 eyes upon the house anew.
 
-"The man said," returned the Tinker, rather irritably,--"him as was here
+"The man said," returned the Tinker, rather irritably, "him as was here
 just now, 'this what you're a laying on, mate, is Tom Tiddler's ground.
 And if you want to see Tom,' he says, 'you must go in at that gate.'  The
 man come out at that gate himself, and he ought to know."
@@ -235,9 +235,9 @@ man come out at that gate himself, and he ought to know."
 "Though, perhaps," exclaimed the Tinker, so struck by the brightness of
 his own idea, that it had the electric effect upon him of causing him to
 lift up his head an inch or so, "perhaps he was a liar!  He told some rum
-'uns--him as was here just now, did about this place of Tom's.  He
-says--him as was here just now--'When Tom shut up the house, mate, to go
-to rack, the beds was left, all made, like as if somebody was a-going to
+'uns him as was here just now, did about this place of Tom's.  He
+says him as was here just now 'When Tom shut up the house, mate, to go
+to rack, the beds was left, all made, like as if somebody was a going to
 sleep in every bed.  And if you was to walk through the bedrooms now,
 you'd see the ragged mouldy bedclothes a heaving and a heaving like seas.
 And a heaving and a heaving with what?' he says.  'Why, with the rats
@@ -282,14 +282,14 @@ eye surveyed him with a very obvious curiosity in ascertaining the effect
 they produced, "Vanity, vanity, vanity!  Verily, all is vanity!"
 
 "What is your name, sir, and where do you come from?" asked Mr. Mopes the
-Hermit--with an air of authority, but in the ordinary human speech of one
+Hermit with an air of authority, but in the ordinary human speech of one
 who has been to school.
 
 Mr. Traveller answered the inquiries.
 
 "Did you come here, sir, to see _me_?"
 
-"I did.  I heard of you, and I came to see you.--I know you like to be
+"I did.  I heard of you, and I came to see you. I know you like to be
 seen."  Mr. Traveller coolly threw the last words in, as a matter of
 course, to forestall an affectation of resentment or objection that he
 saw rising beneath the grease and grime of the face.  They had their
@@ -326,14 +326,14 @@ at him with a sure gun, and his piece had missed fire.
 "Why do you come here at all?" he asked, after a pause.
 
 "Upon my life," said Mr. Traveller, "I was made to ask myself that very
-question only a few minutes ago--by a Tinker too."
+question only a few minutes ago by a Tinker too."
 
 As he glanced towards the gate in saying it, the Hermit glanced in that
 direction likewise.
 
 "Yes.  He is lying on his back in the sunlight outside," said Mr,
 Traveller, as if he had been asked concerning the man, "and he won't come
-in; for he says--and really very reasonably--'What should I come in for?
+in; for he says and really very reasonably 'What should I come in for?
 I can see a dirty man anywhere.'"
 
 "You are an insolent person.  Go away from my premises.  Go!" said the
@@ -341,7 +341,7 @@ Hermit, in an imperious and angry tone.
 
 "Come, come!" returned Mr. Traveller, quite undisturbed.  "This is a
 little too much.  You are not going to call yourself clean?  Look at your
-legs.  And as to these being your premises:--they are in far too
+legs.  And as to these being your premises: they are in far too
 disgraceful a condition to claim any privilege of ownership, or anything
 else."
 
@@ -368,7 +368,7 @@ was.
 "Nor going," Mr. Traveller replied: "I design to pass this summer day
 here."
 
-"How dare you come, sir, upon my promises--" the Hermit was returning,
+"How dare you come, sir, upon my promises " the Hermit was returning,
 when his visitor interrupted him.
 
 "Really, you know, you must _not_ talk about your premises.  I cannot
@@ -379,9 +379,9 @@ to taunt me with being in a diseased state?"
 
 "Why, Lord bless my soul," returned the other, very composedly, "you have
 not the face to say that you are in a wholesome state?  Do allow me again
-to call your attention to your legs.  Scrape yourself anywhere--with
-anything--and then tell me you are in a wholesome state.  The fact is,
-Mr. Mopes, that you are not only a Nuisance--"
+to call your attention to your legs.  Scrape yourself anywhere with
+anything and then tell me you are in a wholesome state.  The fact is,
+Mr. Mopes, that you are not only a Nuisance "
 
 "A Nuisance?" repeated the Hermit, fiercely.
 
@@ -442,18 +442,18 @@ strong I am in holding my purpose."
 
 Mr. Traveller, lounging easily on his billet of wood, took out a pocket
 pipe and began to fill it.  "Now, that a man," he said, appealing to the
-summer sky as he did so, "that a man--even behind bars, in a blanket and
-skewer--should tell me that he can see, from day to day, any orders or
+summer sky as he did so, "that a man even behind bars, in a blanket and
+skewer should tell me that he can see, from day to day, any orders or
 conditions of men, women, or children, who can by any possibility teach
 him that it is anything but the miserablest drivelling for a human
-creature to quarrel with his social nature--not to go so far as to say,
+creature to quarrel with his social nature not to go so far as to say,
 to renounce his common human decency, for that is an extreme case; or who
 can teach him that he can in any wise separate himself from his kind and
 the habits of his kind, without becoming a deteriorated spectacle
-calculated to give the Devil (and perhaps the monkeys) pleasure,--is
+calculated to give the Devil (and perhaps the monkeys) pleasure, is
 something wonderful!  I repeat," said Mr. Traveller, beginning to smoke,
-"the unreasoning hardihood of it is something wonderful--even in a man
-with the dirt upon him an inch or two thick--behind bars--in a blanket
+"the unreasoning hardihood of it is something wonderful even in a man
+with the dirt upon him an inch or two thick behind bars in a blanket
 and skewer!"
 
 The Hermit looked at him irresolutely, and retired to his soot and
@@ -496,7 +496,7 @@ can stand on this ground that I put my foot on, or on any ground that
 mortal treads, and gainsay the healthy tenure on which we hold our
 existence."
 
-"Which is," sneered the Hermit, "according to you--"
+"Which is," sneered the Hermit, "according to you "
 
 "Which is," returned the other, "according to Eternal Providence, that we
 must arise and wash our faces and do our gregarious work and act and re-
@@ -514,7 +514,7 @@ bars and looking out rather anxiously.
 
 
 
-CHAPTER VI--PICKING UP MISS KIMMEENS {1}
+CHAPTER VI PICKING UP MISS KIMMEENS {1}
 
 
 The day was by this time waning, when the gate again opened, and, with
@@ -534,7 +534,7 @@ and started back in terror.
 
 "Who has put it there?" asked the little girl.  "Does it bite?"
 
-"No,--only barks.  But can't you make up your mind to see it, my dear?"
+"No, only barks.  But can't you make up your mind to see it, my dear?"
 For she was covering her eyes.
 
 "O no no no!" returned the child.  "I cannot bear to look at it!"
@@ -560,20 +560,20 @@ Miss Pupford is one of the most amiable of her sex; it necessarily
 follows that she possesses a sweet temper, and would own to the
 possession of a great deal of sentiment if she considered it quite
 reconcilable with her duty to parents.  Deeming it not in the bond, Miss
-Pupford keeps it as far out of sight as she can--which (God bless her!)
+Pupford keeps it as far out of sight as she can which (God bless her!)
 is not very far.
 
 Miss Pupford's assistant with the Parisian accent, may be regarded as in
 some sort an inspired lady, for she never conversed with a Parisian, and
-was never out of England--except once in the pleasure-boat Lively, in the
+was never out of England except once in the pleasure-boat Lively, in the
 foreign waters that ebb and flow two miles off Margate at high water.
 Even under those geographically favourable circumstances for the
 acquisition of the French language in its utmost politeness and purity,
 Miss Pupford's assistant did not fully profit by the opportunity; for the
 pleasure-boat, Lively, so strongly asserted its title to its name on that
 occasion, that she was reduced to the condition of lying in the bottom of
-the boat pickling in brine--as if she were being salted down for the use
-of the Navy--undergoing at the same time great mental alarm, corporeal
+the boat pickling in brine as if she were being salted down for the use
+of the Navy undergoing at the same time great mental alarm, corporeal
 distress, and clear-starching derangement.
 
 When Miss Pupford and her assistant first foregathered, is not known to
@@ -630,7 +630,7 @@ Wells with Miss Pupford for the holidays, reported on her return
 (privately and confidentially) to have seen come capering up to Miss
 Pupford on the Promenade, and to have detected in the act of squeezing
 Miss Pupford's hand, and to have heard pronounce the words, "Cruel
-Euphemia, ever thine!"--or something like that.  Miss Linx hazarded a
+Euphemia, ever thine!" or something like that.  Miss Linx hazarded a
 guess that he might be House of Commons, or Money Market, or Court
 Circular, or Fashionable Movements; which would account for his getting
 into the paper so often.  But, it was fatally objected by the pupil-mind,
@@ -642,8 +642,8 @@ that there is special excitement in the morning paper.  These occasions
 are, when Miss Pupford finds an old pupil coming out under the head of
 Births, or Marriages.  Affectionate tears are invariably seen in Miss
 Pupford's meek little eyes when this is the case; and the pupil-mind,
-perceiving that its order has distinguished itself--though the fact is
-never mentioned by Miss Pupford--becomes elevated, and feels that it
+perceiving that its order has distinguished itself though the fact is
+never mentioned by Miss Pupford becomes elevated, and feels that it
 likewise is reserved for greatness.
 
 Miss Pupford's assistant with the Parisian accent has a little more bone
@@ -666,8 +666,8 @@ him on a memorable occasion when he was behind his time.
 The approach of the last Midsummer holidays had a particular interest for
 the pupil-mind, by reason of its knowing that Miss Pupford was bidden, on
 the second day of those holidays, to the nuptials of a former pupil.  As
-it was impossible to conceal the fact--so extensive were the dress-making
-preparations--Miss Pupford openly announced it.  But, she held it due to
+it was impossible to conceal the fact so extensive were the dress-making
+preparations Miss Pupford openly announced it.  But, she held it due to
 parents to make the announcement with an air of gentle melancholy, as if
 marriage were (as indeed it exceptionally has been) rather a calamity.
 With an air of softened resignation and pity, therefore, Miss Pupford
@@ -678,7 +678,7 @@ surprising intelligence concerning the bonnet.
 
 The extensive preparations being completed on the day before the
 holidays, an unanimous entreaty was preferred to Miss Pupford by the
-pupil-mind--finding expression through Miss Pupford's assistant--that she
+pupil-mind finding expression through Miss Pupford's assistant that she
 would deign to appear in all her splendour.  Miss Pupford consenting,
 presented a lovely spectacle.  And although the oldest pupil was barely
 thirteen, every one of the six became in two minutes perfect in the
@@ -696,9 +696,9 @@ So, the great marriage-day came, and Miss Pupford, quite as much
 fluttered as any bride could be (G! thought Miss Kitty Kimmeens), went
 away, splendid to behold, in the carriage that was sent for her.  But not
 Miss Pupford only went away; for Miss Pupford's assistant went away with
-her, on a dutiful visit to an aged uncle--though surely the venerable
+her, on a dutiful visit to an aged uncle though surely the venerable
 gentleman couldn't live in the gallery of the church where the marriage
-was to be, thought Miss Kitty Kimmeens--and yet Miss Pupford's assistant
+was to be, thought Miss Kitty Kimmeens and yet Miss Pupford's assistant
 had let out that she was going there.  Where the cook was going, didn't
 appear, but she generally conveyed to Miss Kimmeens that she was bound,
 rather against her will, on a pilgrimage to perform some pious office
@@ -782,8 +782,8 @@ though unwilling.  But go or stay, your own poor Bella loves you, Miss
 Kimmeens."
 
 It was certainly go, and not stay, for within five minutes Miss
-Kimmeens's own poor Bella--so much improved in point of spirits as to
-have grown almost sanguine on the subject of her brother-in-law--went her
+Kimmeens's own poor Bella so much improved in point of spirits as to
+have grown almost sanguine on the subject of her brother-in-law went her
 way, in apparel that seemed to have been expressly prepared for some
 festive occasion.  Such are the changes of this fleeting world, and so
 short-sighted are we poor mortals!
@@ -818,7 +818,7 @@ stitched, was infinitely louder in her ears than the stitching of all the
 six pupils, and of Miss Pupford, and of Miss Pupford's assistant, all
 stitching away at once on a highly emulative afternoon.  Then, the
 schoolroom clock conducted itself in a way in which it had never
-conducted itself before--fell lame, somehow, and yet persisted in running
+conducted itself before fell lame, somehow, and yet persisted in running
 on as hard and as loud as it could: the consequence of which behaviour
 was, that it staggered among the minutes in a state of the greatest
 confusion, and knocked them about in all directions without appearing to
@@ -826,9 +826,9 @@ get on with its regular work.  Perhaps this alarmed the stairs; but be
 that as it might, they began to creak in a most unusual manner, and then
 the furniture began to crack, and then poor little Miss Kimmeens, not
 liking the furtive aspect of things in general, began to sing as she
-stitched.  But, it was not her own voice that she heard--it was somebody
+stitched.  But, it was not her own voice that she heard it was somebody
 else making believe to be Kitty, and singing excessively flat, without
-any heart--so as that would never mend matters, she left off again.
+any heart so as that would never mend matters, she left off again.
 
 By-and-by the stitching became so palpable a failure that Miss Kitty
 Kimmeens folded her work neatly, and put it away in its box, and gave it
@@ -836,7 +836,7 @@ up.  Then the question arose about reading.  But no; the book that was so
 delightful when there was somebody she loved for her eyes to fall on when
 they rose from the page, had not more heart in it than her own singing
 now.  The book went to its shelf as the needlework had gone to its box,
-and, since something _must_ be done--thought the child, "I'll go put my
+and, since something _must_ be done thought the child, "I'll go put my
 room to rights."
 
 She shared her room with her dearest little friend among the other five
@@ -861,7 +861,7 @@ small guest, who had gone on ever since the morning growing smaller and
 smaller, while the empty house had gone on swelling larger and larger?
 The very Grace came out wrong, for who were "we" who were going to
 receive and be thankful?  So, Miss Kimmeens was _not_ thankful, and found
-herself taking her dinner in very slovenly style--gobbling it up, in
+herself taking her dinner in very slovenly style gobbling it up, in
 short, rather after the manner of the lower animals, not to particularise
 the pigs.
 
@@ -877,7 +877,7 @@ Pupford, and to write charming letters to his darling little daughter;
 but what did he care for her being left by herself, when he was (as no
 doubt he always was) enjoying himself in company from morning till night?
 Perhaps he only sent her here, after all, to get her out of the way.  It
-looked like it--looked like it to-day, that is, for she had never dreamed
+looked like it looked like it to-day, that is, for she had never dreamed
 of such a thing before.
 
 And this old pupil who was being married.  It was unsupportably conceited
@@ -935,7 +935,7 @@ self!  Help me, anybody!"
 
 * * * * *
 
-"--Miss Kimmeens is not a professed philosopher, sir," said Mr.
+" Miss Kimmeens is not a professed philosopher, sir," said Mr.
 Traveller, presenting her at the barred window, and smoothing her shining
 hair, "but I apprehend there was some tincture of philosophy in her
 words, and in the prompt action with which she followed them.  That
@@ -945,12 +945,12 @@ this gate, bringing her here by chance, as an apposite contrast to you.
 The child came out, sir.  If you have the wisdom to learn from a child
 (but I doubt it, for that requires more wisdom than one in your condition
 would seem to possess), you cannot do better than imitate the child, and
-come out too--from that very demoralising hutch of yours."
+come out too from that very demoralising hutch of yours."
 
 
 
 
-CHAPTER VII--PICKING UP THE TINKER
+CHAPTER VII PICKING UP THE TINKER
 
 
 It was now sunset.  The Hermit had betaken himself to his bed of cinders
@@ -980,7 +980,7 @@ the finishing touches to his job.  "But why are you glad?"
 
 "With the fine weather?" repeated the Tinker, staring.
 
-"You told me you were not particular as to weather, and I thought--"
+"You told me you were not particular as to weather, and I thought "
 
 "Ha, ha!  How should such as me get on, if we _was_ particular as to
 weather?  We must take it as it comes, and make the best of it.  There's
@@ -1019,7 +1019,7 @@ was the cause of your disgust?"
 
 "Why, look'ee here, sir," said the Tinker, rising to his feet, and wiping
 his face on the corner of his black apron energetically; "I leave you to
-judge!--I ask you!--Last night I has a job that needs to be done in the
+judge! I ask you! Last night I has a job that needs to be done in the
 night, and I works all night.  Well, there's nothing in that.  But this
 morning I comes along this road here, looking for a sunny and soft spot
 to sleep in, and I sees this desolation and ruination.  I've lived myself
@@ -1028,9 +1028,9 @@ to live life long in desolation and ruination; and I sits me down and
 takes pity on it, as I casts my eyes about.  Then comes up the
 long-winded one as I told you of, from that gate, and spins himself out
 like a silkworm concerning the Donkey (if my Donkey at home will excuse
-me) as has made it all--made it of his own choice!  And tells me, if you
+me) as has made it all made it of his own choice!  And tells me, if you
 please, of his likewise choosing to go ragged and naked, and
-grimy--maskerading, mountebanking, in what is the real hard lot of
+grimy maskerading, mountebanking, in what is the real hard lot of
 thousands and thousands!  Why, then I say it's a unbearable and
 nonsensical piece of inconsistency, and I'm disgusted.  I'm ashamed and
 disgusted!"
@@ -1052,8 +1052,8 @@ he shouldered his wallet.
 "since you so much wish it; but not a moment longer."
 
 They all three went back across the road; and, through the barred window,
-by the dying glow of the sunset coming in at the gate--which the child
-held open for its admission--he could be pretty clearly discerned lying
+by the dying glow of the sunset coming in at the gate which the child
+held open for its admission he could be pretty clearly discerned lying
 on his bed.
 
 "You see him?" asked Mr. Traveller.

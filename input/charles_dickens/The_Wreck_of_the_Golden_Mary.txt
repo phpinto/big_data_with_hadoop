@@ -32,8 +32,8 @@ Christmas week of one thousand eight hundred and fifty-six, fifty-six
 years of age.
 
 When the rumour first went flying up and down that there was gold in
-California--which, as most people know, was before it was discovered in
-the British colony of Australia--I was in the West Indies, trading among
+California which, as most people know, was before it was discovered in
+the British colony of Australia I was in the West Indies, trading among
 the Islands.  Being in command and likewise part-owner of a smart
 schooner, I had my work cut out for me, and I was doing it.  Consequently,
 gold in California was no business of mine.
@@ -90,8 +90,8 @@ doubt.
 
 He imparted it to me as freely as if I had been a part of himself.  After
 doing so, he made me the handsomest sharing offer that ever was made to
-me, boy or man--or I believe to any other captain in the Merchant
-Navy--and he took this round turn to finish with:
+me, boy or man or I believe to any other captain in the Merchant
+Navy and he took this round turn to finish with:
 
 "Ravender, you are well aware that the lawlessness of that coast and
 country at present, is as special as the circumstances in which it is
@@ -101,7 +101,7 @@ express intention of murdering the captain and seizing the gold freight;
 no man can trust another, and the devil seems let loose.  Now," says he,
 "you know my opinion of you, and you know I am only expressing it, and
 with no singularity, when I tell you that you are almost the only man on
-whose integrity, discretion, and energy--" &c., &c.  For, I don't want to
+whose integrity, discretion, and energy " &c., &c.  For, I don't want to
 repeat what he said, though I was and am sensible of it.
 
 Notwithstanding my being, as I have mentioned, quite ready for a voyage,
@@ -199,7 +199,7 @@ heard John singing like a blackbird.
 We had room for twenty passengers.  Our sailing advertisement was no
 sooner out, than we might have taken these twenty times over.  In
 entering our men, I and John (both together) picked them, and we entered
-none but good hands--as good as were to be found in that port.  And so,
+none but good hands as good as were to be found in that port.  And so,
 in a good ship of the best build, well owned, well arranged, well
 officered, well manned, well found in all respects, we parted with our
 pilot at a quarter past four o'clock in the afternoon of the seventh of
@@ -208,7 +208,7 @@ wind out to sea.
 
 It may be easily believed that up to that time I had had no leisure to be
 intimate with my passengers.  The most of them were then in their berths
-sea-sick; however, in going among them, telling them what was good for
+sea sick; however, in going among them, telling them what was good for
 them, persuading them not to be there, but to come up on deck and feel
 the breeze, and in rousing them with a joke, or a comfortable word, I
 made acquaintance with them, perhaps, in a more friendly and confidential
@@ -246,7 +246,7 @@ about her face, and as her name was Lucy, Steadiman gave her the name of
 the Golden Lucy.  So, we had the Golden Lucy and the Golden Mary; and
 John kept up the idea to that extent as he and the child went playing
 about the decks, that I believe she used to think the ship was alive
-somehow--a sister or companion, going to the same place as herself.  She
+somehow a sister or companion, going to the same place as herself.  She
 liked to be by the wheel, and in fine weather, I have often stood by the
 man whose trick it was at the wheel, only to hear her, sitting near my
 feet, talking to the ship.  Never had a child such a doll before, I
@@ -328,7 +328,7 @@ I had thought it impossible that it could be darker than it had been,
 until the sun, moon, and stars should fall out of the Heavens, and Time
 should be destroyed; but, it had been next to light, in comparison with
 what it was now.  The darkness was so profound, that looking into it was
-painful and oppressive--like looking, without a ray of light, into a
+painful and oppressive like looking, without a ray of light, into a
 dense black bandage put as close before the eyes as it could be, without
 touching them.  I doubled the look-out, and John and I stood in the bow
 side-by-side, never leaving it all night.  Yet I should no more have
@@ -351,7 +351,7 @@ When the night came on again as dark as before, it was the eighth night I
 had been on deck.  Nor had I taken more than a very little sleep in the
 day-time, my station being always near the helm, and often at it, while
 we were among the ice.  Few but those who have tried it can imagine the
-difficulty and pain of only keeping the eyes open--physically open--under
+difficulty and pain of only keeping the eyes open physically open under
 such circumstances, in such darkness.  They get struck by the darkness,
 and blinded by the darkness.  They make patterns in it, and they flash in
 it, as if they had gone out of your head to look at you.  On the turn of
@@ -374,8 +374,8 @@ accord within three hours, I was to be punctually called.  Having settled
 that, I left John in charge.  But I called him to me once afterwards, to
 ask him a question.  I had been to look at the barometer, and had seen
 the mercury still perfectly steady, and had come up the companion again
-to take a last look about me--if I can use such a word in reference to
-such darkness--when I thought that the waves, as the Golden Mary parted
+to take a last look about me if I can use such a word in reference to
+such darkness when I thought that the waves, as the Golden Mary parted
 them and shook them off, had a hollow sound in them; something that I
 fancied was a rather unusual reverberation.  I was standing by the
 quarter-deck rail on the starboard side, when I called John aft to me,
@@ -393,7 +393,7 @@ a pretty sea running, but not a very high sea neither, nor at all a
 confused one.
 
 I turned in, as we seamen say, all standing.  The meaning of that is, I
-did not pull my clothes off--no, not even so much as my coat: though I
+did not pull my clothes off no, not even so much as my coat: though I
 did my shoes, for my feet were badly swelled with the deck.  There was a
 little swing-lamp alight in my cabin.  I thought, as I looked at it
 before shutting my eyes, that I was so tired of darkness, and troubled by
@@ -411,8 +411,8 @@ in the dream.  For all that, I could not get round the church.  I was
 still trying, when I came against it with a violent shock, and was flung
 out of my cot against the ship's side.  Shrieks and a terrific outcry
 struck me far harder than the bruising timbers, and amidst sounds of
-grinding and crashing, and a heavy rushing and breaking of water--sounds
-I understood too well--I made my way on deck.  It was not an easy thing
+grinding and crashing, and a heavy rushing and breaking of water sounds
+I understood too well I made my way on deck.  It was not an easy thing
 to do, for the ship heeled over frightfully, and was beating in a furious
 manner.
 
@@ -426,7 +426,7 @@ to take certain stations and wait my orders, in case of any unexpected
 crisis.  When my voice was heard hailing, and their voices were heard
 answering, I was aware, through all the noises of the ship and sea, and
 all the crying of the passengers below, that there was a pause.  "Are you
-ready, Rames?"--"Ay, ay, sir!"--"Then light up, for God's sake!"  In a
+ready, Rames?" "Ay, ay, sir!" "Then light up, for God's sake!"  In a
 moment he and another were burning blue-lights, and the ship and all on
 board seemed to be enclosed in a mist of light, under a great black dome.
 
@@ -446,8 +446,8 @@ looks.  And all this in a moment.  But you must consider what a moment.
 
 I saw the men, as they looked at me, fall towards their appointed
 stations, like good men and true.  If she had not righted, they could
-have done very little there or anywhere but die--not that it is little
-for a man to die at his post--I mean they could have done nothing to save
+have done very little there or anywhere but die not that it is little
+for a man to die at his post I mean they could have done nothing to save
 the passengers and themselves.  Happily, however, the violence of the
 shock with which we had so determinedly borne down direct on that fatal
 Iceberg, as if it had been our destination instead of our destruction,
@@ -467,7 +467,7 @@ My noble fellows got the boats over the side as orderly as I ever saw
 boats lowered with any sea running, and, when they were launched, two or
 three of the nearest men in them as they held on, rising and falling with
 the swell, called out, looking up at me, "Captain Ravender, if anything
-goes wrong with us, and you are saved, remember we stood by you!"--"We'll
+goes wrong with us, and you are saved, remember we stood by you!" "We'll
 all stand by one another ashore, yet, please God, my lads!" says I.  "Hold
 on bravely, and be tender with the women."
 
@@ -514,7 +514,7 @@ weeping wildly, "O the dear Golden Mary!  O look at her!  Save her!  Save
 the poor Golden Mary!"  And then the light burnt out, and the black dome
 seemed to come down upon us.
 
-I suppose if we had all stood a-top of a mountain, and seen the whole
+I suppose if we had all stood a top of a mountain, and seen the whole
 remainder of the world sink away from under us, we could hardly have felt
 more shocked and solitary than we did when we knew we were alone on the
 wide ocean, and that the beautiful ship in which most of us had been
@@ -533,10 +533,10 @@ and we made for her, and laid ourselves as nearly alongside of her as we
 dared.  I had always kept my boats with a coil or two of good stout stuff
 in each of them, so both boats had a rope at hand.  We made a shift, with
 much labour and trouble, to get near enough to one another to divide the
-blue-lights (they were no use after that night, for the sea-water soon
+blue-lights (they were no use after that night, for the sea water soon
 got at them), and to get a tow-rope out between us.  All night long we
 kept together, sometimes obliged to cast off the rope, and sometimes
-getting it out again, and all of us wearying for the morning--which
+getting it out again, and all of us wearying for the morning which
 appeared so long in coming that old Mr. Rarx screamed out, in spite of
 his fears of me, "The world is drawing to an end, and the sun will never
 rise any more!"
@@ -545,8 +545,8 @@ When the day broke, I found that we were all huddled together in a
 miserable manner.  We were deep in the water; being, as I found on
 mustering, thirty-one in number, or at least six too many.  In the Surf-
 boat they were fourteen in number, being at least four too many.  The
-first thing I did, was to get myself passed to the rudder--which I took
-from that time--and to get Mrs. Atherfield, her child, and Miss Coleshaw,
+first thing I did, was to get myself passed to the rudder which I took
+from that time and to get Mrs. Atherfield, her child, and Miss Coleshaw,
 passed on to sit next me.  As to old Mr. Rarx, I put him in the bow, as
 far from us as I could.  And I put some of the best men near us in order
 that if I should drop there might be a skilful hand ready to take the
@@ -560,7 +560,7 @@ men had knives, and some had a little tobacco: some, a pipe as well.  We
 had a mug among us, and an iron spoon.  As to provisions, there were in
 my boat two bags of biscuit, one piece of raw beef, one piece of raw
 pork, a bag of coffee, roasted but not ground (thrown in, I imagine, by
-mistake, for something else), two small casks of water, and about half-a-
+mistake, for something else), two small casks of water, and about half-a 
 gallon of rum in a keg.  The Surf-boat, having rather more rum than we,
 and fewer to drink it, gave us, as I estimated, another quart into our
 keg.  In return, we gave them three double handfuls of coffee, tied up in
@@ -572,7 +572,7 @@ quite high enough to make our approaching near to one another very
 hazardous.  In the bundle with the coffee, I conveyed to John Steadiman
 (who had a ship's compass with him), a paper written in pencil, and torn
 from my pocket-book, containing the course I meant to steer, in the hope
-of making land, or being picked up by some vessel--I say in the hope,
+of making land, or being picked up by some vessel I say in the hope,
 though I had little hope of either deliverance.  I then sang out to him,
 so as all might hear, that if we two boats could live or die together, we
 would; but, that if we should be parted by the weather, and join company
@@ -590,14 +590,14 @@ whatever allowance I thought best to lay down should be strictly kept to.
 We made a pair of scales out of a thin scrap of iron-plating and some
 twine, and I got together for weights such of the heaviest buttons among
 us as I calculated made up some fraction over two ounces.  This was the
-allowance of solid food served out once a-day to each, from that time to
+allowance of solid food served out once a day to each, from that time to
 the end; with the addition of a coffee-berry, or sometimes half a one,
 when the weather was very fair, for breakfast.  We had nothing else
 whatever, but half a pint of water each per day, and sometimes, when we
 were coldest and weakest, a teaspoonful of rum each, served out as a
 dram.  I know how learnedly it can be shown that rum is poison, but I
 also know that in this case, as in all similar cases I have ever read
-of--which are numerous--no words can express the comfort and support
+of which are numerous no words can express the comfort and support
 derived from it.  Nor have I the least doubt that it saved the lives of
 far more than half our number.  Having mentioned half a pint of water as
 our daily allowance, I ought to observe that sometimes we had less, and
@@ -643,11 +643,11 @@ or three uncertain tempers.  I knew that I had more than one rough temper
 with me among my own people, for I had chosen those for the Long-boat
 that I might have them under my eye.  But, they softened under their
 misery, and were as considerate of the ladies, and as compassionate of
-the child, as the best among us, or among men--they could not have been
+the child, as the best among us, or among men they could not have been
 more so.  I heard scarcely any complaining.  The party lying down would
-moan a good deal in their sleep, and I would often notice a man--not
+moan a good deal in their sleep, and I would often notice a man not
 always the same man, it is to be understood, but nearly all of them at
-one time or other--sitting moaning at his oar, or in his place, as he
+one time or other sitting moaning at his oar, or in his place, as he
 looked mistily over the sea.  When it happened to be long before I could
 catch his eye, he would go on moaning all the time in the dismallest
 manner; but, when our looks met, he would brighten and leave off.  I
@@ -693,7 +693,7 @@ his peace on the instant, I would order him to be knocked on the head and
 thrown overboard.  He was mute then, until the child died, very
 peacefully, an hour afterwards: which was known to all in the boat by the
 mother's breaking out into lamentations for the first time since the
-wreck--for, she had great fortitude and constancy, though she was a
+wreck for, she had great fortitude and constancy, though she was a
 little gentle woman.  Old Mr. Rarx then became quite ungovernable,
 tearing what rags he had on him, raging in imprecations, and calling to
 me that if I had thrown the gold overboard (always the gold with him!) I
@@ -709,7 +709,7 @@ where he lay still enough for hours afterwards.
 
 All that thirteenth night, Miss Coleshaw, lying across my knees as I kept
 the helm, comforted and supported the poor mother.  Her child, covered
-with a pea-jacket of mine, lay in her lap.  It troubled me all night to
+with a pea jacket of mine, lay in her lap.  It troubled me all night to
 think that there was no Prayer-Book among us, and that I could remember
 but very few of the exact words of the burial service.  When I stood up
 at broad day, all knew what was going to be done, and I noticed that my
@@ -745,8 +745,8 @@ doubtful whether some minds, growing weak with fasting and exposure and
 having such a terrific idea to dwell upon in secret, might not magnify it
 until it got to have an awful attraction about it.  This was not a new
 thought of mine, for it had grown out of my reading.  However, it came
-over me stronger than it had ever done before--as it had reason for
-doing--in the boat, and on the fourth day I decided that I would bring
+over me stronger than it had ever done before as it had reason for
+doing in the boat, and on the fourth day I decided that I would bring
 out into the light that unformed fear which must have been more or less
 darkly in every brain among us.  Therefore, as a means of beguiling the
 time and inspiring hope, I gave them the best summary in my power of
@@ -863,7 +863,7 @@ if I had been in charge; and that John was not to blame, but from first
 to last had done his duty nobly, like the man he was.  I tried to write
 it down in my pocket-book, but could make no words, though I knew what
 the words were that I wanted to make.  When it had come to that, her
-hands--though she was dead so long--laid me down gently in the bottom of
+hands though she was dead so long laid me down gently in the bottom of
 the boat, and she and the Golden Lucy swung me to sleep.
 
 * * * * *
@@ -872,9 +872,9 @@ _All that follows, was written by John Steadiman, Chief Mate_:
 
 On the twenty-sixth day after the foundering of the Golden Mary at sea,
 I, John Steadiman, was sitting in my place in the stern-sheets of the
-Surf-boat, with just sense enough left in me to steer--that is to say,
+Surf-boat, with just sense enough left in me to steer that is to say,
 with my eyes strained, wide-awake, over the bows of the boat, and my
-brains fast asleep and dreaming--when I was roused upon a sudden by our
+brains fast asleep and dreaming when I was roused upon a sudden by our
 second mate, Mr. William Rames.
 
 "Let me take a spell in your place," says he.  "And look you out for the
@@ -883,9 +883,9 @@ thought I made out a signal flying aboard her."
 
 We shifted our places, clumsily and slowly enough, for we were both of us
 weak and dazed with wet, cold, and hunger.  I waited some time, watching
-the heavy rollers astern, before the Long-boat rose a-top of one of them
+the heavy rollers astern, before the Long-boat rose a top of one of them
 at the same time with us.  At last, she was heaved up for a moment well
-in view, and there, sure enough, was the signal flying aboard of her--a
+in view, and there, sure enough, was the signal flying aboard of her a
 strip of rag of some sort, rigged to an oar, and hoisted in her bows.
 
 "What does it mean?" says Rames to me in a quavering, trembling sort of
@@ -904,21 +904,21 @@ and saw that it was rigged half-mast high.
 keep her before the sea, and no more.  We must get the Long-boat within
 hailing distance of us, as soon as possible."
 
-I dropped down into my old place at the tiller without another word--for
+I dropped down into my old place at the tiller without another word for
 the thought went through me like a knife that something had happened to
 Captain Ravender.  I should consider myself unworthy to write another
 line of this statement, if I had not made up my mind to speak the truth,
-the whole truth, and nothing but the truth--and I must, therefore,
+the whole truth, and nothing but the truth and I must, therefore,
 confess plainly that now, for the first time, my heart sank within me.
 This weakness on my part was produced in some degree, as I take it, by
 the exhausting effects of previous anxiety and grief.
 
-Our provisions--if I may give that name to what we had left--were reduced
+Our provisions if I may give that name to what we had left were reduced
 to the rind of one lemon and about a couple of handsfull of
 coffee-berries.  Besides these great distresses, caused by the death, the
 danger, and the suffering among my crew and passengers, I had had a
 little distress of my own to shake me still more, in the death of the
-child whom I had got to be very fond of on the voyage out--so fond that I
+child whom I had got to be very fond of on the voyage out so fond that I
 was secretly a little jealous of her being taken in the Long-boat instead
 of mine when the ship foundered.  It used to be a great comfort to me,
 and I think to those with me also, after we had seen the last of the
@@ -938,7 +938,7 @@ another than often fall to one man's share.
 
 I had got over the choking in my throat with the help of a drop of water,
 and had steadied my mind again so as to be prepared against the worst,
-when I heard the hail (Lord help the poor fellows, how weak it sounded!)--
+when I heard the hail (Lord help the poor fellows, how weak it sounded!) 
 
 "Surf-boat, ahoy!"
 
@@ -963,21 +963,21 @@ each other's faces, and whispered under their breaths:
 I commanded them to be silent, and not to make too sure of bad news, at
 such a pass as things had now come to with us.  Then, hailing the Long-
 boat, I signified that I was ready to go on board when the weather would
-let me--stopped a bit to draw a good long breath--and then called out as
+let me stopped a bit to draw a good long breath and then called out as
 loud as I could the dreadful question:
 
 "Is the captain dead?"
 
 The black figures of three or four men in the after-part of the Long-boat
 all stooped down together as my voice reached them.  They were lost to
-view for about a minute; then appeared again--one man among them was held
+view for about a minute; then appeared again one man among them was held
 up on his feet by the rest, and he hailed back the blessed words (a very
 faint hope went a very long way with people in our desperate situation):
 "Not yet!"
 
 The relief felt by me, and by all with me, when we knew that our captain,
-though unfitted for duty, was not lost to us, it is not in words--at
-least, not in such words as a man like me can command--to express.  I did
+though unfitted for duty, was not lost to us, it is not in words at
+least, not in such words as a man like me can command to express.  I did
 my best to cheer the men by telling them what a good sign it was that we
 were not as badly off yet as we had feared; and then communicated what
 instructions I had to give, to William Rames, who was to be left in
@@ -985,7 +985,7 @@ command in my place when I took charge of the Long-boat.  After that,
 there was nothing to be done, but to wait for the chance of the wind
 dropping at sunset, and the sea going down afterwards, so as to enable
 our weak crews to lay the two boats alongside of each other, without
-undue risk--or, to put it plainer, without saddling ourselves with the
+undue risk or, to put it plainer, without saddling ourselves with the
 necessity for any extraordinary exertion of strength or skill.  Both the
 one and the other had now been starved out of us for days and days
 together.
@@ -1044,14 +1044,14 @@ must, I think, have been dreaming of the child she had lost; for there
 was a faint smile just ruffling the white stillness of her face, when I
 first saw it turned upward, with peaceful closed eyes towards the
 heavens.  From her, I looked down a little, and there, with his head on
-her lap, and with one of her hands resting tenderly on his cheek--there
+her lap, and with one of her hands resting tenderly on his cheek there
 lay the Captain, to whose help and guidance, up to this miserable time,
-we had never looked in vain,--there, worn out at last in our service, and
+we had never looked in vain, there, worn out at last in our service, and
 for our sakes, lay the best and bravest man of all our company.  I stole
 my hand in gently through his clothes and laid it on his heart, and felt
 a little feeble warmth over it, though my cold dulled touch could not
 detect even the faintest beating.  The two men in the stern-sheets with
-me, noticing what I was doing--knowing I loved him like a brother--and
+me, noticing what I was doing knowing I loved him like a brother and
 seeing, I suppose, more distress in my face than I myself was conscious
 of its showing, lost command over themselves altogether, and burst into a
 piteous moaning, sobbing lamentation over him.  One of the two drew aside
