@@ -210,3 +210,12 @@ In my machine, the script took ~40 seconds to run (including the time it takes t
     Be      17
     Been    1
 ```
+- Performance Analysis:
+
+|     Dataset     |  Size  | # of Files | Time Elapsed | # of Unique Words |
+|:---------------:|:------:|:----------:|:------------:|:-----------------:|
+|   American Pie  |  4 KB  |      1     |     3 ms     |        313        |
+|      Hamlet     | 192 KB |      1     |     5 ms     |        4835       |
+| Charles Dickens | 6.4 MB |     20     |     37 ms    |       45,331      |
+|  BBC Tech News  | 1.2 MB |     401    |    183 ms    |       12,673      |
+|   Song Lyrics   | 5.6 MB |     41     |     51 ms    |       27,254      |
