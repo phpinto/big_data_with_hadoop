@@ -149,8 +149,6 @@ This image was obtained from https://www.edureka.co/blog/mapreduce-tutorial/
   - Eliminating all characters besides letters, hyphens (-) and single apostrophes (')
   - After the initial filtering, keep only hyphens or apostrophes that appeared inside a word (e.g. Bye-bye or Nature's)
   - Standardizing the letter case by capitalizing the first letter in each word (e.g. Apple instead of apple, APPLE or aPpLe)
-
-- Implementation in Java inside the Mapper class:
 ```java
 while (itr.hasMoreTokens()) {
                 word = itr.nextToken();
