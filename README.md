@@ -227,3 +227,12 @@ As can be seen from the table above, while the size of the data set does influen
 ![alt text](images/graph_word_count.png)
 
 It would be very interesting to run this program on an actual Hadoop cluster with multiple nodes and compare its performance to my single machine running Hadoop on pseudo-distributed mode. Hadoop excels in the world of Big Data by providing horizontal expansion capabilities with commodity hardware, parallel computation performed where the data resides and robust fault-tolerance.
+
+### 4. MapReduce Top100Words:
+
+This is a more complicated MapReduce problem where you take group of documents (corpus) as input and output Top 100 words ranked in 3 different ways:
+  - First, by the number of files in the corpus where that word appears.
+  - Second, by the total number of times that word appears in the corpus (in case multiple words appear on the same number of files).
+  - Third, sort the words alphabetically (as a final tie-breaker if necessary).
+  
+In order to achieve this, I made several changes to the WordCount program:
