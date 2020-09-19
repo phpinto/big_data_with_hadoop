@@ -108,13 +108,14 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
 ### 2. Data Description:
 
-A number of different text files was used was input data for this homework. They are all saved in the input folder.
+A number of different text files were used was input data for this homework. They are all saved in the input folder.
 
 - american_pie.txt: 
   - lyrics to the song American Pie by Don McLean, obtained from https://www.letras.com/don-mclean/25411/
 - hamlet.txt: 
   - William Shakespeare's famous tragedy Hamlet, obtained from https://gist.github.com/provpup/2fc41686eab7400b796b
-- charles_dikens: this folder contains the 20 books published by the famous English author Charles Dickens.
+- charles_dikens: 
+  - this folder contains the 20 books published by the famous English author Charles Dickens.
   - These files were obtained from *Project Gutenberg* using the Gutenberg python library to fetch the data.
   - You can run the Jupyter notebook /import_books/import_charles_dickens_books.ipynb to understand the process.
 - bbc_tech_news:
