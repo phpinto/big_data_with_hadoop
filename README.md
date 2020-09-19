@@ -141,5 +141,34 @@ This is a classic MapReduce problem where you take a document (or group of docum
 
 This image was obtained from https://www.edureka.co/blog/mapreduce-tutorial/
 
-As a starting point, I used the MapReducde tutorial on the official Apache Hadoop website https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html . 
+- As a starting point, I used the MapReducde tutorial on the official Apache Hadoop website https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html .
 
+- After compiling and running the program, I noticed that it was not filtering out punctuation or unusual characters after splitting the text based on whitespace " ". This lead to strings like \[first,], \[who and tears- being considered distinct words.
+
+- Steps to solve this problem:
+  - Eliminating all characters besides letters, hyphens (-) and single apostrophes (')
+  - After the initial filtering, keep only hyphens or apostrophes that appeared inside a word (e.g. Bye-bye or Nature's)
+  - Standardizing the letter case by capitalizing the first letter in each word (e.g. Apple instead of apple, APPLE or aPpLe)
+
+- Implementation in Java inside the Mapper class:
+```java
+while (itr.hasMoreTokens()) {
+                word = itr.nextToken();
+                String pattern = "[^\\-'A-Za-z]+";
+                word = word.replaceAll(pattern,"");
+                if (word.length() > 0) {
+                    int start = 0;
+                    while (start < word.length()){
+                        if (!Character.isLetter(word.charAt(start))) ++start;
+                        else break;
+                    }
+                    int end = Character.isLetter(word.charAt(word.length()-1)) ? word.length() : word.length() - 1;
+                    if (end < start) end = start;
+                    word = word.substring(start,end);
+                    if (word.length() > 0) {
+                        word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+                        clean_word.set(word);
+                        context.write(clean_word, one);
+                    }
+                }
+```
