@@ -45,9 +45,10 @@ The first step of this homework was to setup HDFS in my local machine. In order 
 
 
 - Configuration File Edits:
-  - hadoop-env.sh:
-    Make sure to set export JAVA_HOME to the the Java home location in your machine.
-  - core-site.xml:
+  - **hadoop-env.sh**:
+    Make sure to set export **JAVA_HOME** to the the Java home location in your machine.
+  - **core-site.xml**:
+
 ```xml
     <configuration>
       <property>
@@ -62,7 +63,8 @@ The first step of this homework was to setup HDFS in my local machine. In order 
     </configuration>
 ```
 -
-  - mapred-site.xml:
+  - **mapred-site.xml**:
+
 ```xml
     <configuration>
       <property>
@@ -72,7 +74,8 @@ The first step of this homework was to setup HDFS in my local machine. In order 
     </configuration>
 ```
 -
-  - hdfs-site.xml:
+  - **hdfs-site.xml**:
+
 ```xml
     <configuration>
       <property>
