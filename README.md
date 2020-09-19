@@ -39,12 +39,12 @@ Specifications of the machine I used to run the programs in this repository:
 
 The first step of this homework was to setup HDFS in my local machine. In order to do so, I installed Java and Hadoop and edited the necessary configuration files.
 
-- Hadoop version: 3.3.0
-- Hadoop mode: Pseudo-Distributed (<value>1</value> on the hdfs-site.xml configuration file)
-- hadoop command is available globally (hadoop binary files were added to the path)
+- **Hadoop version:** 3.3.0
+- **Hadoop mode:** Pseudo-Distributed (<value>1</value> on the hdfs-site.xml configuration file)
+- **hadoop command** is available globally (hadoop binary files were added to the path)
 
 
-- Configuration File Edits:
+- **Configuration File Edits:**
   - **hadoop-env.sh**:
     Make sure to set export **JAVA_HOME** to the the Java home location in your machine.
   - **core-site.xml**:
@@ -94,15 +94,15 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
  After installing HDFS, I starting all services by running the start-all.sh script on the sbin folder inside the hadoop folder.
 
-**- Resource Manager Screenshot:**
+- **Resource Manager Screenshot:**
 
 ![alt text](images/Resource%20Manager.png)
 
-**- JobTracker Screenshot:**
+- **JobTracker Screenshot:**
 
 ![alt text](images/JobTracker.png)
 
-**- Node Manager Screenshot:**
+- **Node Manager Screenshot:**
 
 ![alt text](images/Node%20Manager.png)
 
