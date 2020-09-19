@@ -183,7 +183,7 @@ while (itr.hasMoreTokens()) {
     cd WordCount/src
     sh word_count.sh
 ```
-In my machine, the script took ~40 seconds to run (including the time it takes to print all the progress reports to the terminal).
+In my machine, the script took **~40 seconds** to run (including the time it takes to print all the progress reports to the terminal).
 
 - Portion of a MapReduce successful job feedback message:
 ![alt text](images/mapreduce_success.png)
@@ -357,7 +357,7 @@ Additionally, I also decided to include a look-up HashSet of the 150 most common
     sh top_100_words.sh
 ```
 
-In my machine, the script took ~ seconds to run (including the time it takes to print all the progress reports to the terminal).
+In my machine, the script took **~45 seconds** to run (including the time it takes to print all the progress reports to the terminal).
 
 - Portion of a MapReduce Top100Words job output:
 ```txt
