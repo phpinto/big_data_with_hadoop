@@ -177,7 +177,7 @@ while (itr.hasMoreTokens()) {
                     }
                 }
 ```
-- Running the program:
+- **Running the program:**
   - To run the MapReduce job, you need to change directories to WordCount/src and run the word_count.sh shell script by running the following commands:
 ```shell
     cd WordCount/src
@@ -350,6 +350,15 @@ Additionally, I also decided to include a look-up HashSet of the 150 most common
             if (!common_words_set.contains(key.toString())) master_list.add(new WordTuple(key.toString(), doc_count, total_count))
 ```
 
+- **Running the program:**
+  - To run the MapReduce job, you need to change directories to Top100Words/src and run the top_100_words.sh shell script by running the following commands:
+```shell
+    cd Top100Words/src
+    sh top_100_words.sh
+```
+
+In my machine, the script took ~ seconds to run (including the time it takes to print all the progress reports to the terminal).
+
 - Portion of a MapReduce Top100Words job output:
 ```txt
     Such	201	377
@@ -368,3 +377,5 @@ Additionally, I also decided to include a look-up HashSet of the 150 most common
     Million	134	253
     Online	133	307
 ```
+
+- **Performance Analysis:**
