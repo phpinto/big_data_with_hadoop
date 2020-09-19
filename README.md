@@ -422,3 +422,7 @@ In order to illustrate the outputs of this MapReduce job, I created a few *Word 
 - **Hip-Hop Song Lyrics:**
 
 ![alt text](images/hip_hop_word_cloud.png)
+
+### Final View of my HDFS Dashboard:
+
+![alt text](images/hdfs.png)
