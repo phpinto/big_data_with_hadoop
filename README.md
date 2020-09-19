@@ -238,3 +238,29 @@ This is a more complicated MapReduce problem where you take group of documents (
 The final output will contain **100 words** displaying the number of documents where it appears and total number of occurances in the corpus separated by tabs (e.g.: **World   33   215**) 
 
 In order to achieve this, I made several changes to the WordCount program:
+
+- Used a HashMap to count the total occurances of each word per document during the Mapper stage instead of writing it to the context every iteration:
+
+```java
+    Map<String, Integer> word_list = new HashMap<String, Integer>();
+    
+    if (word.length() > 0) {
+        word = word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase();
+
+        Integer count = word_list.get(word);
+
+        if (count == null) word_list.put(word, 1);
+        else word_list.put(word, count + 1);
+    }
+```
+- Overrode the Mapper's cleanup method to write compounded sums to the context only once. This way, each word will be written to context once for every document that contains that word (containing the number of times it appears in that document):
+
+```java
+@Override
+        protected void cleanup(Context context) throws IOException, InterruptedException {
+            for (String key : word_list.keySet()) {
+                word_count.set(word_list.get(key));
+                clean_word.set(key);
+                context.write(clean_word, word_count);
+            }
+```
