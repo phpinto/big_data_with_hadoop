@@ -224,3 +224,4 @@ As can be seen from the table above, while the size of the data set does influen
 
 - **# of Files vs. Computation Time Graph:**
 
+![alt text](images/graph_1.png)
