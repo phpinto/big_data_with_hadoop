@@ -106,7 +106,7 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
 ![alt text](images/Node%20Manager.png)
 
-### 2. Data Descriptions:
+### 2. Data Description:
 
 A number of different text files was used was input data for this homework. They are all saved in the input folder.
 
