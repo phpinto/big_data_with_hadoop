@@ -133,4 +133,13 @@ A number of different text files were used was input data for this homework. The
 
 ### 3. MapReduce WordCount:
 
+This is a classic MapReduce problem where you take a document (or group of documents) as input and output all the different words sorted alphabetically along with the number of times each one occured in the document or corpus.
+
+- Job Diagram:
+
+![alt text](images/map_reduce_word_count.png)
+
+This image was obtained from https://www.edureka.co/blog/mapreduce-tutorial/
+
+As a starting point, I used the MapReducde tutorial on the official Apache Hadoop website https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html . 
 
