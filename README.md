@@ -178,7 +178,7 @@ while (itr.hasMoreTokens()) {
                 }
 ```
 - **Running the program:**
-  - To run the MapReduce job, you need to change directories to WordCount/src and run the word_count.sh shell script by running the following commands:
+  - To run the MapReduce job, you need to change directories to WordCount/src and run the word_count.sh shell script by running the following commands from the root directory of the repository:
 ```shell
     cd WordCount/src
     sh word_count.sh
@@ -351,7 +351,7 @@ Additionally, I also decided to include a look-up HashSet of the 150 most common
 ```
 
 - **Running the program:**
-  - To run the MapReduce job, you need to change directories to Top100Words/src and run the top_100_words.sh shell script by running the following commands:
+  - To run the MapReduce job, you need to change directories to Top100Words/src and run the top_100_words.sh shell script by running the following commands from the root directory of the repository:
 ```shell
     cd Top100Words/src
     sh top_100_words.sh
