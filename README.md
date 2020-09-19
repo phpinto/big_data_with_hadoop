@@ -399,15 +399,26 @@ Once again, it can be confirmed how the total number of documents is most import
 
 In order to illustrate the outputs of this MapReduce job, I created a few *Word Clouds* using the website https://worditout.com/word-cloud/:
 
-- Charles Dickens' Books:
+- **Charles Dickens' Books:**
 
-- BBC Technology News:
+![alt text](images/charles_word_cloud.png)
 
-- Pop Song Lyrics:
+- **BBC Technology News:**
 
-- Rock Song Lyrics:
+![alt text](images/bbc_word_cloud.png)
 
-- Folk/Country Song Lyrics:
+- **Pop Song Lyrics:**
 
-- Hip-Hop Song Lyrics:
+![alt text](images/pop_word_cloud.png)
 
+- **Rock Song Lyrics:**
+
+![alt text](images/rock_word_cloud.png)
+
+- **Folk/Country Song Lyrics:**
+
+![alt text](images/folk_word_cloud.png)
+
+- **Hip-Hop Song Lyrics:**
+
+![alt text](images/hip_hop_word_cloud.png)
