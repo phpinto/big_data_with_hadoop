@@ -21,6 +21,20 @@ Specifications of the machine I used to run the programs in this repository:
 - 500 GB SSD
 - Hadoop running on Pseudo-Distributed mode
 
+#### Repository Folder Structure:
+- input: 
+    - All text inputs used for the MapReduce jobs.
+- WordCount: 
+    - Java MapReduce program to count the occurance of each word in a document or body of documents.
+- Top100Words: 
+    - Java MapReduce program to find the top 100 most common words across a body of documents.
+- output: 
+    - All outputs from the MapReduce jobs.
+- import_books: 
+    - Contains the jupyter notebook used to import books from the Gutenbert Project.
+- images: 
+    - Contains all images used in the Readme file.
+
 ### 1. HDFS Installation:
 
 The first step of this homework was to setup HDFS in my local machine. In order to do so, I installed Java and Hadoop and edited the necessary configuration files.
