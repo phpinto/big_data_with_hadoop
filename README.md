@@ -106,6 +106,30 @@ If you running Linux, you can follow the offical Apache Hadoop documentation: ht
 
 ![alt text](images/Node%20Manager.png)
 
-### 2. MapReduce WordCount:
+### 2. Data Descriptions:
+
+A number of different text files was used was input data for this homework. They are all saved in the input folder.
+
+- american_pie.txt: 
+  - lyrics to the song American Pie by Don McLean, obtained from https://www.letras.com/don-mclean/25411/
+- hamlet.txt: 
+  - William Shakespeare's famous tragedy Hamlet, obtained from https://gist.github.com/provpup/2fc41686eab7400b796b
+- charles_dikens: this folder contains the 20 books published by the famous English author Charles Dickens.
+  - These files were obtained from *Project Gutenberg* using the Gutenberg python library to fetch the data.
+  - You can run the Jupyter notebook /import_books/import_charles_dickens_books.ipynb to understand the process.
+- bbc_tech_news:
+  - This folder contains 401 news articles by BBC on the topic of Technology.
+  - The data was obtained from http://mlg.ucd.ie/datasets/bbc.html
+- song_lyrics:
+  - This data set contains the lyrics of songs by a number of different aritsts. For each artist, all of his or her lyrics were saved as a single txt file.
+  - The data was obtained from https://www.kaggle.com/paultimothymooney/poetry
+  - I manually subdivided the artists into four main genres:
+    - Pop: 11 aritsts
+    - Rock: 13 aritsts
+    - Folk/Country: 6 aritsts
+    - Hip-Hop: 11 aritsts
+
+
+### 3. MapReduce WordCount:
 
 
