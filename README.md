@@ -184,3 +184,29 @@ while (itr.hasMoreTokens()) {
     sh word_count.sh
 ```
 In my machine, the script took ~40 seconds to run (including the time it takes to print all the progress reports to the terminal).
+
+- Portion of a MapReduce successful job feedback message:
+![alt text](images/mapreduce_feedback.png)
+
+- Portion of a MapReduce job output:
+```txt
+    A       18
+    About   1
+    Above   1
+    Adjourned       1
+    Admire  1
+    Again   1
+    Ago     1
+    Air     1
+    All     3
+    American        7
+    And     37
+    Angel   1
+    As      2
+    Asked   1
+    Away    1
+    Bad     1
+    Band    1
+    Be      17
+    Been    1
+```
