@@ -225,3 +225,5 @@ As can be seen from the table above, while the size of the data set does influen
 - **# of Files vs. Computation Time Graph:**
 
 ![alt text](images/graph_1.png)
+
+It would be very interesting to run this program on an actual Hadoop cluster with multiple nodes to see much faster it would run when compared to my single machine running Hadoop on pseudo-distributed mode. Hadoop excels in the world of Big Data by providing horizontal expansion capabilities with commodity hardware, parallel computation performed where the data resides and robust fault-tolerance.
