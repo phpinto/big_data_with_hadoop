@@ -379,3 +379,12 @@ In my machine, the script took **~45 seconds** to run (including the time it tak
 ```
 
 - **Performance Analysis:**
+
+|       Dataset       |  Size  | # of Files | Time Elapsed |
+|:-------------------:|:------:|:----------:|:------------:|
+|   Charles Dickens   | 6.4 MB |     20     |     58 ms    |
+|    BBC Tech News    | 1.2 MB |     401    |    149 ms    |
+|      Pop Lyrics     | 1.4 MB |     11     |     27 ms    |
+|     Rock Lyrics     | 1.4 MB |     13     |     34 ms    |
+| Folk/Country Lyrics | 672 KB |      6     |     18 ms    |
+|    Hip-Hop Lyrics   | 2.2 MB |     11     |     31 ms    |
